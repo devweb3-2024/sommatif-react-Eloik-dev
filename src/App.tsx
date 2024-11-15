@@ -1,10 +1,9 @@
 import './App.css';
+import Tableau from './containers/Tableau/Tableau';
 
 function App() {
   return (
-    <>
-      <h1>Jeu de mémoire</h1>
-    </>
+    <Tableau />
   );
 }
 
